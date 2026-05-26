@@ -14,7 +14,7 @@ public class Q34 {
         list1.add(1);
         list1.add(2);
         modifyList(list1);
-        System.out.println(list1)
+        System.out.println(list1);
 
 
     }
