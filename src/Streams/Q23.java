@@ -10,6 +10,6 @@ public class Q23 {
     public static void main(String[] args) {
 
         List<String> stringList=List.of("Hello"," I ","am");
-        stringList.stream().sorted(Comparator.comparing(Objects::compare)).forEach(System.out::println);
+//        stringList.stream().sorted(Comparator.comparing(Objects::compare)).forEach(System.out::println);
     }
 }
