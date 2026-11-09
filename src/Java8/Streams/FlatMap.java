@@ -49,14 +49,7 @@ public class FlatMap {
                 .forEach(System.out::println);
 
 
-        List<Employee> employees =
-                List.of(
-                        new Employee("Harsh", "IT", 70000),
-                        new Employee("Aman", "IT", 50000),
-                        new Employee("Bob", "HR", 40000),
-                        new Employee("Charlie", "HR", 60000),
-                        new Employee("David", "IT", 70000)
-                );
+
 
         /*
 
@@ -69,13 +62,6 @@ Group employees by department
 Find highest salary employee
 Find department-wise average salary
          */
-
-
-        employees.stream()
-                .filter(x->x.getSalary()>5000)
-                .map(x->x.getName())
-                .forEach(System.out::println);
-
 
 
 
